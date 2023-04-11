@@ -120,13 +120,17 @@ footer > .wrapper {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
     .help {
         flex-direction: column;
     }
 
+    .column > p {
+        max-width: 350px;
+    }
+
     img {
-        max-width: 300px;
+        max-width: 350px;
         width: 100%;
     }
 }
