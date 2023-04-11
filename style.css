@@ -99,6 +99,7 @@ h2 {
 
 .column {
     max-width: 600px;
+    text-align: center;
 }
 
 footer {
