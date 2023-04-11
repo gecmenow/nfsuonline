@@ -103,6 +103,7 @@ h2 {
 
 footer {
     margin: 10px 0;
+    border-top: #0e4e75 5px solid;
 }
 
 footer > .wrapper {
@@ -111,4 +112,21 @@ footer > .wrapper {
 
 .contact-info {
     margin:  10px 0;
+}
+
+@media (max-width: 720px) {
+    .title {
+        font-size: 24pt;
+    }
+}
+
+@media (max-width: 320px) {
+    .help {
+        flex-direction: column;
+    }
+
+    img {
+        max-width: 300px;
+        width: 100%;
+    }
 }
